@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: smitkoli/order-service:latest
+          image: pbiswas1208/order-service:latest
           ports:
             - containerPort: 3000

@@ -5,7 +5,7 @@ FROM node:20
 WORKDIR /usr/src/app
 
 # Clone your Express.js application repository from GitHub
-RUN git clone https://github.com/almightyzeus/order-service.git .
+RUN git clone https://github.com/pbiswas1208/Order-service.git .
 
 # Install dependencies
 RUN npm install
